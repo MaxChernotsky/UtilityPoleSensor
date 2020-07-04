@@ -1,0 +1,3587 @@
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xB0 (176)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F B0 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[145] : <Rx> - 03:04:43.326
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[146] : <Tx> - 03:04:46.854
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[147] : <Rx> - 03:04:46.888
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[148] : <Rx> - 03:04:46.903
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[149] : <Rx> - 03:04:46.940
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xB0 (176)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F B0 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[150] : <Rx> - 03:04:51.879
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[151] : <Tx> - 03:04:55.839
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[152] : <Rx> - 03:04:55.872
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[153] : <Rx> - 03:04:55.889
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[154] : <Rx> - 03:04:55.954
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xB2 (178)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F B2 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[155] : <Rx> - 03:05:00.878
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[156] : <Tx> - 03:09:53.231
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[157] : <Rx> - 03:09:53.270
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[158] : <Rx> - 03:09:53.283
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[159] : <Rx> - 03:09:53.332
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xB0 (176)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F B0 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[160] : <Rx> - 03:09:58.259
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[161] : <Tx> - 03:10:56.665
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[162] : <Rx> - 03:10:56.698
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[163] : <Rx> - 03:10:56.714
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[164] : <Rx> - 03:10:56.731
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA4 (164)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A4 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[165] : <Rx> - 03:10:56.866
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAC (172)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AC FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[166] : <Rx> - 03:10:57.083
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAA (170)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AA FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[167] : <Rx> - 03:11:01.697
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x03 (3)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 03             ............
+--------------------------------------------------------------------
+[168] : <Tx> - 03:11:40.631
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[169] : <Rx> - 03:11:40.682
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[170] : <Rx> - 03:11:40.699
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[171] : <Rx> - 03:11:40.746
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA0 (160)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A0 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[172] : <Rx> - 03:11:45.681
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[173] : <Tx> - 03:11:48.424
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[174] : <Rx> - 03:11:48.458
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[175] : <Rx> - 03:11:48.472
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[176] : <Rx> - 03:11:48.513
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA8 (168)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A8 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[177] : <Rx> - 03:11:53.459
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[178] : <Tx> - 03:11:56.557
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[179] : <Rx> - 03:11:56.592
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[180] : <Rx> - 03:11:56.603
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[181] : <Rx> - 03:11:56.623
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAF (175)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AF FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[182] : <Rx> - 03:12:01.587
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[183] : <Tx> - 03:12:50.278
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[184] : <Rx> - 03:12:50.305
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[185] : <Rx> - 03:12:50.320
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[186] : <Rx> - 03:12:50.371
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAA (170)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AA FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[187] : <Rx> - 03:12:55.317
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[188] : <Tx> - 03:12:58.689
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[189] : <Rx> - 03:12:58.730
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[190] : <Rx> - 03:12:58.745
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[191] : <Rx> - 03:12:58.816
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAB (171)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AB FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[192] : <Rx> - 03:13:03.727
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[193] : <Tx> - 03:13:05.925
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[194] : <Rx> - 03:13:05.962
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[195] : <Rx> - 03:13:05.978
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[196] : <Rx> - 03:13:06.480
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAB (171)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AB FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[197] : <Rx> - 03:13:10.963
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[198] : <Tx> - 03:14:18.507
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[199] : <Rx> - 03:14:18.539
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[200] : <Rx> - 03:14:18.551
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[201] : <Rx> - 03:14:18.601
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAB (171)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AB FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[202] : <Rx> - 03:14:23.541
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[203] : <Tx> - 03:14:29.814
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[204] : <Rx> - 03:14:29.846
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[205] : <Rx> - 03:14:29.862
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[206] : <Rx> - 03:14:29.912
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA7 (167)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A7 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[207] : <Rx> - 03:14:34.851
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[208] : <Tx> - 03:14:36.584
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[209] : <Rx> - 03:14:36.634
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[210] : <Rx> - 03:14:36.657
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[211] : <Rx> - 03:14:36.734
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA9 (169)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A9 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[212] : <Rx> - 03:14:41.641
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[213] : <Tx> - 03:15:18.307
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[214] : <Rx> - 03:15:18.337
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[215] : <Rx> - 03:15:18.353
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[216] : <Rx> - 03:15:18.382
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAA (170)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AA FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[217] : <Rx> - 03:15:23.337
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[218] : <Tx> - 03:15:25.510
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[219] : <Rx> - 03:15:25.546
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[220] : <Rx> - 03:15:25.559
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[221] : <Rx> - 03:15:25.626
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAB (171)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AB FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[222] : <Rx> - 03:15:30.538
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[223] : <Tx> - 03:15:33.237
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[224] : <Rx> - 03:15:33.272
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[225] : <Rx> - 03:15:33.284
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[226] : <Rx> - 03:15:33.373
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xAC (172)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F AC FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[227] : <Rx> - 03:15:38.270
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[228] : <Tx> - 03:16:48.977
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[229] : <Rx> - 03:16:49.013
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[230] : <Rx> - 03:16:49.029
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[231] : <Rx> - 03:16:49.049
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA6 (166)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A6 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[232] : <Rx> - 03:16:54.013
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[233] : <Tx> - 03:16:56.659
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[234] : <Rx> - 03:16:56.701
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[235] : <Rx> - 03:16:56.718
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[236] : <Rx> - 03:16:56.736
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA4 (164)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A4 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[237] : <Rx> - 03:17:01.696
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[238] : <Tx> - 03:17:05.311
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[239] : <Rx> - 03:17:05.340
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[240] : <Rx> - 03:17:05.358
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[241] : <Rx> - 03:17:05.378
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA7 (167)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A7 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[242] : <Rx> - 03:17:10.340
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[243] : <Tx> - 03:17:54.928
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[244] : <Rx> - 03:17:54.977
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[245] : <Rx> - 03:17:54.993
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[246] : <Rx> - 03:17:55.027
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA5 (165)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A5 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[247] : <Rx> - 03:17:59.975
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[248] : <Tx> - 03:18:01.973
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[249] : <Rx> - 03:18:01.997
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[250] : <Rx> - 03:18:02.015
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[251] : <Rx> - 03:18:02.066
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA3 (163)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A3 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[252] : <Rx> - 03:18:07.006
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[253] : <Tx> - 03:18:08.301
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[254] : <Rx> - 03:18:08.327
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[255] : <Rx> - 03:18:08.344
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[256] : <Rx> - 03:18:08.378
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9E (158)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9E FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[257] : <Rx> - 03:18:13.338
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[258] : <Tx> - 03:18:44.571
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[259] : <Rx> - 03:18:44.613
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[260] : <Rx> - 03:18:44.629
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[261] : <Rx> - 03:18:45.263
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA3 (163)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A3 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[262] : <Rx> - 03:18:49.605
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[263] : <Tx> - 03:18:52.758
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[264] : <Rx> - 03:18:52.793
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[265] : <Rx> - 03:18:52.814
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[266] : <Rx> - 03:18:53.457
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA6 (166)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A6 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[267] : <Rx> - 03:18:57.785
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[268] : <Tx> - 03:18:59.251
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[269] : <Rx> - 03:18:59.288
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[270] : <Rx> - 03:18:59.304
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[271] : <Rx> - 03:18:59.336
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA5 (165)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A5 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[272] : <Rx> - 03:19:04.286
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[273] : <Tx> - 03:19:56.511
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[274] : <Rx> - 03:19:56.551
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[275] : <Rx> - 03:19:56.564
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[276] : <Rx> - 03:19:56.578
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA4 (164)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A4 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[277] : <Rx> - 03:20:01.546
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[278] : <Tx> - 03:20:02.917
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[279] : <Rx> - 03:20:02.954
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[280] : <Rx> - 03:20:02.972
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[281] : <Rx> - 03:20:03.216
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9F (159)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9F FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[282] : <Rx> - 03:20:07.958
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[283] : <Tx> - 03:20:09.993
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[284] : <Rx> - 03:20:10.016
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[285] : <Rx> - 03:20:10.032
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[286] : <Rx> - 03:20:10.049
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA0 (160)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A0 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[287] : <Rx> - 03:20:15.021
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[288] : <Tx> - 03:21:19.494
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[289] : <Rx> - 03:21:19.528
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[290] : <Rx> - 03:21:19.550
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[291] : <Rx> - 03:21:20.551
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9D (157)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9D FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[292] : <Rx> - 03:21:24.529
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[293] : <Tx> - 03:21:26.921
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[294] : <Rx> - 03:21:26.962
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[295] : <Rx> - 03:21:26.978
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[296] : <Rx> - 03:21:27.036
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9B (155)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9B FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[297] : <Rx> - 03:21:31.961
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[298] : <Tx> - 03:21:34.473
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[299] : <Rx> - 03:21:34.506
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[300] : <Rx> - 03:21:34.527
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[301] : <Rx> - 03:21:34.596
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9F (159)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9F FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[302] : <Rx> - 03:21:39.505
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[303] : <Tx> - 03:22:24.465
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[304] : <Rx> - 03:22:24.493
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[305] : <Rx> - 03:22:24.514
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[306] : <Rx> - 03:22:24.947
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA1 (161)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A1 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[307] : <Rx> - 03:22:29.493
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[308] : <Tx> - 03:22:31.645
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[309] : <Rx> - 03:22:31.678
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[310] : <Rx> - 03:22:31.697
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[311] : <Rx> - 03:22:31.756
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA2 (162)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A2 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[312] : <Rx> - 03:22:36.682
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[313] : <Tx> - 03:22:37.871
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[314] : <Rx> - 03:22:37.905
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[315] : <Rx> - 03:22:37.920
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[316] : <Rx> - 03:22:38.502
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA4 (164)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A4 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[317] : <Rx> - 03:22:42.913
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[318] : <Tx> - 03:24:37.739
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[319] : <Rx> - 03:24:37.767
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[320] : <Rx> - 03:24:37.782
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[321] : <Rx> - 03:24:38.190
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA2 (162)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A2 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[322] : <Rx> - 03:24:42.769
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[323] : <Tx> - 03:24:43.718
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[324] : <Rx> - 03:24:43.754
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[325] : <Rx> - 03:24:43.771
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[326] : <Rx> - 03:24:43.943
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA8 (168)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A8 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[327] : <Rx> - 03:24:48.751
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[328] : <Tx> - 03:24:49.853
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[329] : <Rx> - 03:24:49.881
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[330] : <Rx> - 03:24:49.903
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[331] : <Rx> - 03:24:49.938
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA3 (163)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A3 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[332] : <Rx> - 03:24:54.882
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[333] : <Tx> - 03:25:58.621
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[334] : <Rx> - 03:25:58.649
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[335] : <Rx> - 03:25:58.671
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[336] : <Rx> - 03:25:59.340
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9E (158)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9E FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[337] : <Rx> - 03:26:03.654
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[338] : <Tx> - 03:26:04.575
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[339] : <Rx> - 03:26:04.617
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[340] : <Rx> - 03:26:04.634
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[341] : <Rx> - 03:26:05.200
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9B (155)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9B FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[342] : <Rx> - 03:26:09.615
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[343] : <Tx> - 03:26:10.552
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[344] : <Rx> - 03:26:10.586
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[345] : <Rx> - 03:26:10.611
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[346] : <Rx> - 03:26:10.680
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA3 (163)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A3 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[347] : <Rx> - 03:26:15.591
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[348] : <Tx> - 03:28:02.853
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[349] : <Rx> - 03:28:02.889
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[350] : <Rx> - 03:28:02.907
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[351] : <Rx> - 03:28:07.890
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x00 (0)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 00             ............
+--------------------------------------------------------------------
+[352] : <Tx> - 03:28:09.906
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[353] : <Rx> - 03:28:09.947
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[354] : <Rx> - 03:28:09.963
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[355] : <Rx> - 03:28:10.321
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA0 (160)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A0 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[356] : <Rx> - 03:28:14.944
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[357] : <Tx> - 03:28:15.960
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[358] : <Rx> - 03:28:15.992
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[359] : <Rx> - 03:28:16.010
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[360] : <Rx> - 03:28:20.991
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x00 (0)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 00             ............
+--------------------------------------------------------------------
+[361] : <Tx> - 03:28:24.428
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[362] : <Rx> - 03:28:24.463
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[363] : <Rx> - 03:28:24.482
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[364] : <Rx> - 03:28:26.636
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9B (155)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9B FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[365] : <Rx> - 03:28:29.464
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[366] : <Tx> - 03:28:33.047
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[367] : <Rx> - 03:28:33.082
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[368] : <Rx> - 03:28:33.102
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[369] : <Rx> - 03:28:38.082
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x00 (0)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 00             ............
+--------------------------------------------------------------------
+[370] : <Tx> - 03:28:41.380
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[371] : <Rx> - 03:28:41.421
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[372] : <Rx> - 03:28:41.440
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[373] : <Rx> - 03:28:41.520
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9E (158)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9E FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[374] : <Rx> - 03:28:46.417
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[375] : <Tx> - 03:29:22.355
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[376] : <Rx> - 03:29:22.388
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[377] : <Rx> - 03:29:22.401
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[378] : <Rx> - 03:29:22.428
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9A (154)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9A FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[379] : <Rx> - 03:29:27.388
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[380] : <Tx> - 03:29:28.749
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[381] : <Rx> - 03:29:28.782
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[382] : <Rx> - 03:29:28.802
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[383] : <Rx> - 03:29:31.090
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0xA5 (165)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F A5 FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[384] : <Rx> - 03:29:33.778
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
+[385] : <Tx> - 03:29:35.086
+-Type           : 0x01 (Command)
+-OpCode         : 0xFE51 (GapScan_enable)
+-Data Length    : 0x06 (6) byte(s)
+ Period         : 0x0000 (0)
+ Duration       : 0x01F4 (500)
+ MaxNumRecords  : 0x0028 (40)
+Dump(Tx):
+0000:01 51 FE 06 00 00 F4 01 28 00                   .Q......(.
+--------------------------------------------------------------------
+[386] : <Rx> - 03:29:35.110
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x06 (6) bytes(s)
+ Event          : 0x067F (1663) (GAP_HCI_ExtentionCommandStatus)
+ Status         : 0x00 (0) (SUCCESS)
+ OpCode         : 0xFE51 (GapScan_enable)
+ DataLength     : 0x00 (0)
+Dump(Rx):
+0000:04 FF 06 7F 06 00 51 FE 00                      ......Q..
+--------------------------------------------------------------------
+[387] : <Rx> - 03:29:35.126
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x07 (7) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00010000 (65536) (
+                  GAP_EVT_SCAN_ENABLED)
+Dump(Rx):
+0000:04 FF 07 13 06 00 00 00 01 00                   ..........
+--------------------------------------------------------------------
+[388] : <Rx> - 03:29:35.704
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x32 (50) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00400000 (4194304) (
+                  GAP_EVT_ADV_REPORT)
+ AdvRptEventType: 0x01 (1) (AE_Undir_Conn_or_Data_Complete)
+ AddressType    : 0x00 (0) (ADDRTYPE_PUBLIC)
+ Address        : F0:F8:F2:D2:C9:26
+ PrimaryPHY     : 0x03 (3) (SCANNED_PHY_CODED)
+ SecondaryPHY   : 0x03 (3) (SCANNED_PHY_CODED)
+ AdvSid         : 0x00 (0)
+ TxPower        : 0x7F (127)
+ RSSI           : 0x9D (157)
+ DirectAddrType : 0xFF (255) (ADDRTYPE_NONE)
+ DirectAddr     : 00:00:00:00:00:00
+ PeriodicAdvInt : 0x0000 (0)
+ DataLength     : 0x0013 (19)
+ Data           : 03:08:50:53:02:01:06:03:02:F0:FF:07:FF:41:41:30:
+                  52:42:39
+Dump(Rx):
+0000:04 FF 32 13 06 00 00 00 40 00 01 00 26 C9 D2 F2 ..2.....@...&...
+0010:F8 F0 03 03 00 7F 9D FF 00 00 00 00 00 00 00 00 ................
+0020:13 00 03 08 50 53 02 01 06 03 02 F0 FF 07 FF 41 ....PS.........A
+0030:41 30 52 42 39                                  A0RB9
+--------------------------------------------------------------------
+[389] : <Rx> - 03:29:40.121
+-Type           : 0x04 (Event)
+-EventCode      : 0x00FF (HCI_LE_ExtEvent)
+-Data Length    : 0x09 (9) bytes(s)
+ Event          : 0x0613 (1555) (GAP_AdvertiserScannerEvent)
+ Status         : 0x00 (0) (SUCCESS)
+ EventId        : 0x00020000 (131072) (
+                  GAP_EVT_SCAN_DISABLED)
+ EndReason      : 0x01 (1) (SCAN_END_REASON_DUR_EXP)
+ NumberOfReports: 0x01 (1)
+Dump(Rx):
+0000:04 FF 09 13 06 00 00 00 02 00 01 01             ............
+--------------------------------------------------------------------
