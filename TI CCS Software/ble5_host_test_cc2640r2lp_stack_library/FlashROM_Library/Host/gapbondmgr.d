@@ -1,0 +1,5 @@
+# FIXED
+
+Host/gapbondmgr.obj: /Applications/ti/simplelink_cc2640r2_sdk_4_10_00_10/source/ti/ble5stack/host/gapbondmgr.c
+
+/Applications/ti/simplelink_cc2640r2_sdk_4_10_00_10/source/ti/ble5stack/host/gapbondmgr.c: 

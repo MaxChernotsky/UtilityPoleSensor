@@ -1,0 +1,20 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+build-1403654575:
+	@$(MAKE) --no-print-directory -Onone -f subdir_rules.mk build-1403654575-inproc
+
+build-1403654575-inproc: ../multi_role_app.cfg
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: XDCtools'
+	"/Applications/ti/xdctools_3_61_00_16_core/xs" --xdcpath="/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source;/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/kernel/tirtos/packages;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M4F -p ti.platforms.simplelink:CC2642R1F -r release -c "/Applications/CCSV9_CC2640/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --compileOptions "-mv7M4 --code_state=16 --float_support=FPv4SPD16 -me -O4 --opt_for_speed=0 --include_path=\"/Users/maxchernotsky/workspace_v9/multi_role_CC26X2R1_LAUNCHXL_tirtos_ccs/syscfg\" --include_path=\"/Users/maxchernotsky/workspace_v9/multi_role_CC26X2R1_LAUNCHXL_tirtos_ccs\" --include_path=\"/Users/maxchernotsky/workspace_v9/multi_role_CC26X2R1_LAUNCHXL_tirtos_ccs/Debug\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/examples/rtos/CC26X2R1_LAUNCHXL/ble5stack/multi_role/Application\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/controller/cc26xx/inc\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/inc\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/rom\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/common/cc26xx\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/icall/inc\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/hal/src/target/_common\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/hal/src/target/_common/cc26xx\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/hal/src/inc\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/heapmgr\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/profiles/dev_info\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/profiles/simple_profile\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/icall/src/inc\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/osal/src/inc\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/services/src/saddr\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/ble5stack/services/src/sdata\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/common/nv\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/common/cc26xx\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/devices/cc13x2_cc26x2\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/posix/ccs\" --include_path=\"/Applications/CCSV9_CC2640/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include\" --include_path=\"/Applications/ti/simplelink_cc13x2_26x2_sdk_4_10_00_78/source/ti/common/cc26xx/uartlog\" --define=uartlog_FILE=\"\"\"\" --define=DeviceFamily_CC26X2 --define=FLASH_ROM_BUILD --define=NVOCMP_NWSAMEITEM=1 -g --c99 --gcc --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi  " "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+configPkg/linker.cmd: build-1403654575 ../multi_role_app.cfg
+configPkg/compiler.opt: build-1403654575
+configPkg/: build-1403654575
+
+
